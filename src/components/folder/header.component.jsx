@@ -34,9 +34,9 @@ const Header = ({ currentUser }) => (
   </div>
 );
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({ user }) => {
   return {
-    currentUser: state.user.currentUser,
+    currentUser: user.currentUser,
   };
 };
 
