@@ -6,6 +6,7 @@
   padding: 15px 0;
   font-size: 20px;
   align-items: center;
+  // justify-content: space-between;
 
   .image-container {
     width: 23%;
@@ -24,7 +25,11 @@
 
   .quantity {
     display: flex;
-    padding-left: 20px;
+    margin-left: 20px;
+  }
+
+  .price {
+    margin-left: 10px;
   }
 
   .arrow {
