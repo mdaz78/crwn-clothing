@@ -10,7 +10,6 @@ import {
 import CollectionPreview from '../collection-preview/collection-preview.component';
 
 const CollectionsOverview = ({ collections }) => {
-  console.log(collections);
   return (
     <div className='collections-overview'>
       {collections.map(({ id, ...otherCollectionProps }) => (
