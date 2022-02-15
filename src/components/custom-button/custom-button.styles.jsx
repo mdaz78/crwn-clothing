@@ -13,20 +13,21 @@ const buttonStyles = css`
 `;
 
 const invertedButtonStyles = css`
-  background-color: #fff;
-  color: #000;
+  background-color: white;
+  color: black;
   border: 1px solid black;
 
   &:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: black;
+    color: white;
     border: none;
   }
 `;
 
 const googleSignInStyles = css`
   background-color: #4285f4;
-  color: #fff;
+  color: white;
+  border: none;
 
   &:hover {
     background-color: #357ae8;
