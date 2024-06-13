@@ -1,5 +1,9 @@
 import { useContext } from "react";
 import { Link, Outlet } from "react-router-dom";
+
+import CardDropDown from "../../components/cart-dropdown/cart-dropdown.component";
+import CartIcon from "../../components/cart-icon/cart-icon.component";
+
 import { UserContext } from "../../context/user.context";
 
 import "./navigation.styles.scss";
@@ -33,7 +37,9 @@ const Navigation = () => {
               SIGN IN
             </Link>
           )}
+          <CartIcon />
         </div>
+        <CardDropDown />
       </div>
       <Outlet />
     </>
